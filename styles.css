@@ -1,0 +1,206 @@
+ @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+.animated-text {
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: monospace;
+    font-size: 2em;
+    animation: typing 5s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+}
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+ header{
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100%;
+    align-items: center;
+    padding: 10px 200px;
+    position: fixed;
+
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.8em;
+}
+.navigation a{
+    padding-left: 30px;
+    color: #3a6cf4;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.navigation a:hover{
+    color: #530df5;
+}
+section{
+    padding: 100px 200px;
+    height:100% ;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    background: url(a2.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position-y: 50px;
+}
+.main h2{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    color: #4eff51;
+    font-size: 2.8em;
+    font-weight: 600;
+}
+.main-btn{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.187em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #1c57f9;
+    transform: scale(1.1);
+}
+.social-icon a {
+    margin-right: 10px;
+    color: #fff; 
+    font-size: 1.5em;
+}
+
+.content{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.About-me{
+    height: 650px;
+}
+.title{
+    text-align: center;
+    color: #3a6cf4;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.d1{
+    background-color: #fff;
+    width: 80%;
+    margin-left: 400px;
+    font-weight: 700;
+    padding: 52px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+.d2 {
+    display: inline-block;
+    margin-bottom: 15px;
+    color:  #4eff51;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: monospace;
+    font-size: 2em;
+    animation: typing 5s steps(30, end) infinite, blink-caret 0.75s step-end infinite;
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+}
+.img{
+    float: left;
+    height: 300px;
+    width: 250px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.Skills{
+    background-color: #1c1331;
+
+}
+.progress{
+    height: 15px;
+    margin: 10px;
+}
+.pg{
+    display: inline-block;
+    float: right;
+    font-size: 0.8em;
+    font-weight: 700;
+    color: rgb(0, 170, 255);
+}
+.progress-bar {
+    color: black;
+    font-weight: 700;
+}
+.icon{
+    color: #3a6cf4;
+    text-align: center;
+    font-size:5.5em;
+}
+.card{
+    background-color: #fff;
+    width: 21em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    float: left;
+    margin-left: 120px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.info{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+}
+.footer{
+    background-color: #1c1331;
+    height: 110px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.span{
+    text-align: center;
+    color: #3a6cf4;
+    font-weight: 800;
+}
